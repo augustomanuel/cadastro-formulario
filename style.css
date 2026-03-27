@@ -1,0 +1,88 @@
+        
+        *{
+            margin: auto;
+            box-shadow: none;
+            /* border-style: none; */
+            /* box-sizing: border-box; */
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            overflow: hidden;
+            background-color: rgb(87, 125, 128);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8%;
+            height: 60vh;
+            /* display: block; */
+        }
+        .menu-for, .login
+        {
+            color: white;
+            background-color: rgb(148, 193, 196);
+            /* display: none; */
+            justify-items: center;
+            padding: 30px;
+            width: 350px;
+            border-radius: 5%;
+            /* border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px; */
+        }
+        a{
+            cursor: pointer;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+
+        label{
+            padding: 5px;
+        }
+        .inputs{
+            /* border: 1px solid red; */
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        input{
+            border: 1px solid rgb(133, 177, 179);
+            padding: 7px;
+            width: 300px;
+            border-radius: 10px;
+            color: black;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+        select, .btn{
+            margin-top: 5px;
+            width: 315px;
+            padding: 6PX;
+            border-radius: 10px;
+            border: 1px solid rgb(133, 177, 179);
+            cursor: pointer;
+        }
+        .btn{
+            margin-top: 13px;
+            color: white;
+            font-size: medium;
+            background-color: rgb(57, 77, 78);
+            margin-bottom: 7px
+        }
+        .btn:hover{
+            color: white;
+            /* background-color: rgb(37, 212, 154); */
+            background-color: rgb(119, 148, 150);
+        }
+        a{
+            padding: 10px;
+            color: white;
+            text-decoration: underline;
+        }
+        a:hover{
+            color: rgb(57, 77, 78);
+            /* color: rgb(37, 98, 212); */
+        }
+
+    

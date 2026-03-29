@@ -12,28 +12,30 @@
     <!-- <h1>CADASTRO DE FORMULÁRIO</h1> -->
 
     <section class="menu-for formulario">
-        <form>
+        <form 
+        action="cadastrar-form.php"
+        method="POST">
             <h2>Faça o seu Cadastro</h2>
             <div class="inputs">
 
                 <label for="text">Nome Completo</label><br>
-                <input type="text" name="" id="" placeholder="Informe seu nome completo"><br>
+                <input type="text" name="nome_completo" placeholder="Informe seu nome completo"><br>
 
                 <label for="email">Email</label><br>
-                <input type="email" name="" id="" placeholder="email@gmail.com"><br>
+                <input type="email" name="email_completo" placeholder="email@gmail.com"><br>
 
-                <label for="">Telefone</label><br>
-                <input type="tel" name="" id="" placeholder="945 790 622"><br>
+                <label for="">Idade</label><br>
+                <input type="tel" name="idade_completa" placeholder="Coloque sua idae aqui!"><br>
 
-                <label for="">Senha</label><br>
-                <input type="password" name="" id="" placeholder="*********"><br>
+                <!-- <label for="">Senha</label><br>
+                <input type="password" name="password" placeholder="*********"><br>
 
                 <label for="">Gênero</label>
                 <select>
                     <option value="">Selecione seu Gênero</option>
-                    <option value="">Masculino</option>
-                    <option value="">Feminino</option>
-                </select><br>
+                    <option value="" name="genero_masculino" >Masculino</option>
+                    <option value="" name="genero_feminino">Feminino</option>
+                </select><br> -->
 
                 <button type="submit" class="btn">Cadastrar</button>
             </div>
